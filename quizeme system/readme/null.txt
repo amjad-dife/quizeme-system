@@ -1,0 +1,175 @@
+{   
+    "id:1,
+    "type": "txt",
+    "value": "What is the capital of Connecticut?"
+}
+******************************************************************************************************
+{  
+    "question_number":"1",
+    "type": "choose_one",
+    "question_body":
+    [
+        {   
+            "id:1,
+            "type": "txt",
+            "value": "What is the capital of Connecticut?"
+        },
+        {   
+            "id:2,
+            "type": "img",
+            "value": "url"
+        }
+    ],
+    "answer_body": 
+    [
+        "Hartford",
+        "Heartford",
+        "Hart",
+        " ford"
+    ]
+}
+********************************************************************************************************
+{
+    "examInfo": 
+    {
+        "examSubject": "data mining",
+        "examTime": "2 hours",
+        "examCreator": "dt/margany",
+        "facultyName": "computer science",
+        "universityName": "assuit university"
+    },
+    "examQuestions": 
+    [
+        {
+            "question_number": "1",
+            "type": "choose_one",
+            "question_body": 
+            [
+                {   
+                    "id":1,
+                    "type": "txt",
+                    "value": "What is the capital of Connecticut?"
+                }
+            ],
+            "answer_body": 
+            [
+                "Hartford",
+                "Heartford",
+                "Hart",
+                " ford"
+            ]
+        }
+    ]
+}
+*********************************************************************************************************
+class QuestionFragment //using constructor notation 
+    properities :
+        1. type         //text (txt  , img           , audio                 ,equation)
+        2. value        //     (text , url as string , ? : may be source url ,html comming from the math editor )
+        3. id 
+    methods:
+        1. setFragmetType(fType)
+        2. setFragmentValue(fValue)
+        3. setFragmentId(id)
+***********************************************************************************************************
+class question //using constructor notation 
+    properities : 
+        1. question_number          // integer  
+        2. type                     // string 
+        3. question_body            // array of object 
+        4. answer_body              // array , whatever what will it contain 
+    methods :
+        1. setQuestionId(id)        
+        2. setQuestionType(type) 
+        3. addQuestionFragment(obj)
+        4. addAnswerSequence(arr)
+***********************************************************************************************************
+class exam //using object notation 
+    properities :
+        1. examSubject      //string
+        2. examTime         //string
+        3. examCreator      //string
+        4. facultyName      //string
+        5. universityName   //string
+        6. examQuestions    //array of objects 
+    methods :
+        1. setExamSubject(subj)
+        2. setExamTime(time)
+        3. setExamCreator(creator)
+        4. setFacultyName(faculty)
+        5. setUniversityName(university)
+        6. addQuestion(obj)
+***********************************************************************************************************
+class QuestionFragment
+{
+    constructor()
+    {
+        //binding this : this.methodName = this.methodName.bind(this);
+        this.setFragmetType = this.setFragmetType.bind(this);
+        this.setFragmentValue = this.setFragmentValue.bind(this);
+    }
+    setFragmetType(fType)
+    {
+        this.type = fType;
+    }
+    setFragmentValue(fValue)
+    {
+        this.value = fValue;
+    }
+}
+***********************************************************************************************************
+class Question
+{
+    constructor()
+    {
+        this.setQuestionId       = this.setQuestionId.bind(this);
+        this.setQuestionType     = this.setQuestionType.bind(this);
+        this.addQuestionFragment = this.addQuestionFragment.bind(this);   
+        this.addAnswerSequence   = this.addAnswerSequence.bind(this);
+    }
+    setQuestionId(QId) 
+    {
+        this.question_number=QId;
+    }
+    setQuestionType(Qtype) 
+    {
+        this.type=Qtype;
+    }
+    addQuestionFragment(obj)
+    {
+        this.question_body.push(obj);
+    }
+    addAnswerSequence(arr)
+    {
+        this.answer_body=arr;
+    }
+}
+*************************************************************************************************************
+let exam =
+{   
+    examQuestions:[],
+    setExamSubject:(subj)=>
+    {
+        exam.examSubject=subj;
+    },
+    setExamTime:(time)=>
+    {
+        exam.examTime =time; 
+    },
+    setExamCreator:(creator)=>
+    {
+        exam.examCreator = creator;
+    },
+    setFacultyName:(faculty)=>
+    {
+        exam.facultyName = faculty;
+    },
+    setUniversityName:(university)=>
+    {
+        exam.universityName = university;
+    },
+    addQuestion:(obj)=>
+    {
+        exam.examQuestions.push(obj);
+    }
+}

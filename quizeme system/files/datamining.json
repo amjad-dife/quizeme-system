@@ -1,0 +1,166 @@
+{
+    "examQuestions": [
+        {
+            "question_body": [
+                {
+                    "id": "5911e06b-626f-6ae7-8ce7-1e9cea2b039c",
+                    "qId": "dc4cf29f-e715-b836-7491-9c93651adede",
+                    "type": "txt",
+                    "value": "1+1 = 10 ? in binary system "
+                }
+            ],
+            "question_number": "dc4cf29f-e715-b836-7491-9c93651adede",
+            "type": "true or false",
+            "answer_body": [
+                "true",
+                "false"
+            ]
+        },
+        {
+            "question_body": [
+                {
+                    "id": "ff1217ad-f482-ded5-36c8-5ea4bc540874",
+                    "qId": "eb658337-8920-6b53-5a82-479d83e47153",
+                    "type": "equation",
+                    "value": "<a href=\"https://www.codecogs.com/eqnedit.php?latex=\\sqrt{4}\" target=\"_blank\"><img src=\"https://latex.codecogs.com/gif.latex?\\sqrt{4}\" title=\"\\sqrt{4}\" /></a>"
+                }
+            ],
+            "question_number": "eb658337-8920-6b53-5a82-479d83e47153",
+            "type": "choose one",
+            "answer_body": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ]
+        },
+        {
+            "question_body": [
+                {
+                    "id": "7a55ad2d-6ef9-0a1c-3435-33a465f0d407",
+                    "qId": "af0fa331-f656-f240-968f-d03654830e56",
+                    "type": "equation",
+                    "value": "<a href=\"https://www.codecogs.com/eqnedit.php?latex=\\sum_{i=0}^{100}i&plus;1\" target=\"_blank\"><img src=\"https://latex.codecogs.com/gif.latex?\\sum_{i=0}^{100}i&plus;1\" title=\"\\sum_{i=0}^{100}i+1\" /></a>"
+                }
+            ],
+            "question_number": "af0fa331-f656-f240-968f-d03654830e56",
+            "type": "choose more",
+            "answer_body": [
+                "1",
+                "0",
+                "5",
+                "none of the above "
+            ]
+        },
+        {
+            "question_body": [
+                {
+                    "id": "1e9eaf3d-f380-76e1-6837-1abc91da6dd6",
+                    "qId": "1b8de95e-79dd-bb97-98fe-0b59ca55771c",
+                    "type": "txt",
+                    "value": "what is the benefit of data warehouses ? "
+                }
+            ],
+            "question_number": "1b8de95e-79dd-bb97-98fe-0b59ca55771c",
+            "type": "text",
+            "answer_body": []
+        },
+        {
+            "question_body": [
+                {
+                    "id": "1d2432a5-215d-5085-364d-f0b2f1b4d15e",
+                    "qId": "56ed97fc-3fd8-97c0-c4ff-e912ad431188",
+                    "type": "txt",
+                    "value": "upload your cv"
+                }
+            ],
+            "question_number": "56ed97fc-3fd8-97c0-c4ff-e912ad431188",
+            "type": "file",
+            "answer_body": []
+        },
+        {
+            "question_body": [
+                {
+                    "id": "135c5cd2-8322-64a1-a3ff-ba192196eba8",
+                    "qId": "44a81980-06f4-7430-5701-8788295a01b6",
+                    "type": "txt",
+                    "value": "match the correct one "
+                }
+            ],
+            "question_number": "44a81980-06f4-7430-5701-8788295a01b6",
+            "type": "matchig",
+            "answer_body": [
+                [
+                    "1",
+                    "2"
+                ],
+                [
+                    "1",
+                    "10"
+                ]
+            ]
+        },
+        {
+            "question_body": [
+                {
+                    "id": "2b55411d-bd6e-9af2-4f6b-9e1003dec27f",
+                    "qId": "bc8106ba-df31-2103-6554-ba73035af2cb",
+                    "type": "txt",
+                    "value": "there is no difference between data and information "
+                }
+            ],
+            "question_number": "bc8106ba-df31-2103-6554-ba73035af2cb",
+            "type": "true or false",
+            "answer_body": [
+                "true",
+                "false"
+            ]
+        },
+        {
+            "question_body": [
+                {
+                    "id": "7d8ad5ad-d48c-6783-377e-12c0a8729604",
+                    "qId": "973546d6-8533-39bf-4fc1-dc99f7ccb94a",
+                    "type": "txt",
+                    "value": "what is the data life cycle ?"
+                }
+            ],
+            "question_number": "973546d6-8533-39bf-4fc1-dc99f7ccb94a",
+            "type": "text",
+            "answer_body": []
+        },
+        {
+            "question_body": [
+                {
+                    "id": "a22b1eaf-bd88-fb38-ed31-30f289de8a6d",
+                    "qId": "38301fe0-7e00-6ca6-1a58-48ba82c356f4",
+                    "type": "txt",
+                    "value": "upload your resume"
+                }
+            ],
+            "question_number": "38301fe0-7e00-6ca6-1a58-48ba82c356f4",
+            "type": "file",
+            "answer_body": []
+        },
+        {
+            "question_body": [
+                {
+                    "id": "1d7611a5-cf3b-e373-2092-c5324a164f76",
+                    "qId": "a2be2376-953a-fbd6-3512-dad89c4e9e13",
+                    "type": "txt",
+                    "value": "upload your info "
+                }
+            ],
+            "question_number": "a2be2376-953a-fbd6-3512-dad89c4e9e13",
+            "type": "file",
+            "answer_body": []
+        }
+    ],
+    "examInfo": {
+        "examSubject": "data mining ",
+        "examTime": "3 hours ",
+        "examCreator": "amjad",
+        "facultyName": "fci ",
+        "universityName": "assiut"
+    }
+}

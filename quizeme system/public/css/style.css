@@ -1,0 +1,342 @@
+body
+{
+    background-color:#FAFAF0;
+    width: 100%;
+    height: 100%;
+    
+}
+input
+{
+    padding: 2px;
+    font-size: medium;
+   
+}
+button
+{ 
+    display: block;
+    margin: 4px;
+    outline: none;
+}
+#examInfoDiv
+{
+    width: 80%;
+    height: 190px;
+    margin-top:4px ;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#3D3C3B; 
+    color: #FFB614;
+    font-size: large;
+    padding: 4px;
+}
+.btn_Check{
+    float: left;
+    border-radius:8px;
+    width: 100px;
+    font-size: medium;
+    margin-left: 210px;
+}
+.exam_info_par{
+    margin: 0%;
+    padding-bottom: 13px;
+    height: 8px;
+    font-size:20px;
+    font-family:monospace;
+    /* font-style:bold; */
+    display: inline;
+}
+.exam_info_text1{
+    text-align: center;
+    margin-left: 40px;
+    width: 300px;
+    height: 15px;
+    display: inline;
+}.exam_info_text2{
+    text-align: center;
+    margin-left: 62px;
+    width: 300px;
+    height: 15px;
+    display: inline;
+}.exam_info_text3{
+    text-align: center;
+    margin-left: 38px;
+    width: 300px;
+    height: 15px;
+    display: inline;
+}.exam_info_text4{
+    text-align: center;
+    margin-left: 27px;
+    width: 300px;
+    height: 15px;
+    display: inline;
+}.exam_info_text5{
+    text-align: center;
+    margin-left: -6px;
+    width: 300px;
+    height: 15px;
+    display: inline;
+}.exam_info_text6{
+    text-align: center;
+    margin-left: 15px;
+    width: 300px;
+    height: 15px;
+    display: inline;
+}
+#infoDiv
+{   
+    padding-right: 4px;
+    padding-left: 4px;
+    float: left;
+    height: 90%;
+  
+    color: white;
+    font-size: larger;
+    text-align:left;
+    width: 75%; 
+}
+.hidden
+{
+    display: none;
+}
+
+#counterDiv
+{   
+    padding:4px;
+    display: inline;
+    height: 90%;
+    width: 20%;
+    background-color:white; 
+
+    color:rgb(44, 44, 71); 
+    text-align:center;
+    float:right;
+}
+.div_Left{
+    width: 80%;
+    
+ display: inline-block;
+    
+}
+.div_Right{
+    width: 80%;
+   
+    
+    
+}
+.questionDiv 
+{   
+    width:80%;
+    border-radius: 4px;
+    border-color: #819ca9;
+    border-style: solid;
+    border-width: 1px;
+    margin-top:4px ;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:white;
+    padding:4px;
+    min-height: 200px;
+    
+}
+.toolBtn
+{
+    background-color: #6E6C6A;
+    color: white; 
+    border-radius: 0ch;
+    font-weight: initial;
+    text-align: left;
+    display: inline;
+    font-size: medium;
+    border-radius: 4px;
+    border-color:29434e ;
+    border-style: solid;
+    border-width: 1px;
+}
+.toolLayoutDiv
+{  
+    background-color: white;
+    margin : 4px;
+    padding: 4px;
+}
+.askLayoutDiv
+{      
+    background-color:#FAFAF0;
+    margin: 4px;
+    padding: 4px;
+    min-height: 60px;
+}
+.answerLayoutDiv
+{
+    margin: 4px;
+    padding: 4px;
+    min-height: 60px;
+    background-color: #FAFAF0;
+    display: block;
+}
+
+.deleteQuestionBtn
+{   
+    margin: 4px;
+    width: 100px;
+    background-color: #6E6C6A;
+    color: white;
+    font-size: larger;
+    border-radius: 4px;
+    border-color:29434e ;
+    border-style: solid;
+    border-width: 1px;
+   
+ 
+   
+}
+span
+{
+    color:rgb(22, 16, 26);   
+}
+.answerLayoutDiv .inline{
+    display: inline;
+    width: auto;
+}
+.answerLayoutDiv .inline1{
+    display: inline;
+    width: 90%;
+}
+.answerLayoutDiv .inline2{
+    display: inline;
+    width: 5%;
+    background-color: #B39D79;
+    text-align: center;
+}
+.textarea{
+    width: 100%;
+    height: 93px;
+}
+.custom-text{
+    margin-left: 10px;
+	font-family: sans-serif;
+	color: #aaa;
+}
+.custom-button {
+	padding: 10px;
+	color: white;
+	background-color: #009578;
+	border: 1px solid #000;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  .custom-button:hover {
+	background-color: #00b28f;
+  }
+  .upload
+  {
+    background-color:#6E6C6A;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    border-top-right-radius: 45px;
+    border-color: #819ca9;
+    border-style: solid;
+    border-width: .5px;
+    color:white;
+    min-height: 30px;
+    font-size: medium;
+    width: 100px;
+    padding: 8px;
+  }
+.fixedBtn1
+{
+    margin-left: 95%;
+    background-color:#B39D79;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    border-color: #593411;
+    border-style: solid;
+    border-width: .5px;
+    color:white;
+    min-height: 30px;
+    font-weight: bold;
+}
+.fixedBtn
+{
+    position:fixed;
+    bottom:0%;
+    right:0%;
+    background-color:#3D3C3B;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    border-color: #819ca9;
+    border-style: solid;
+    border-width: .5px;
+    color:white;
+    min-height: 30px;
+    font-weight: bold;
+}
+.fixedfinish
+{
+    position:fixed;
+    width: 100px;
+    bottom:0%;
+    left:0%;
+    background-color:#3D3C3B;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    border-color: #819ca9;
+    border-style: solid;
+    border-width: .5px;
+    color:white;
+    min-height: 30px;
+    font-weight: bold;   
+}
+input
+{
+    display: block;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    text-align:left;
+    width: 90%;
+    line-height: 1.4em;
+    border: none;
+    outline: none;
+    line-height:1.6em;
+ 
+}
+.answerMenu
+{
+    float: right;
+    background-color:#6E6C6A;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    height: 100%;
+    width: 150px;
+    margin: 4px;
+    color: white;
+    font-size: large;
+    padding: 4px;
+    outline: none;
+}
+.voiceRecorder
+{
+    cursor: pointer;
+}
+audio
+{
+    display: block;
+    outline: none;
+    margin: 4px;
+}
+
+button[data-recording="true"] 
+{   
+    border-style: solid;
+    border-width:1px;
+    padding:4px;
+    background-color: #29434e;
+    font-size: medium;
+    border-radius: 4px;
+    color: white;
+ 
+}

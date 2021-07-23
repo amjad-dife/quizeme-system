@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Student page</title>
+    <link rel="stylesheet" href="../public/css/style3.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="studentInfoEnteredDiv">
+        <h2>student information</h2>
+        <label for="fullName">Full Name</label><br>
+        <input type="text" id="fullName"><br>
+        <label for="setNum">Set Number</label><br>
+        <input type="text" id="setNum"><br>
+        <label for="emailAddress">Email Address</label><br>
+        <input type="email" id="emailAddress"><br>
+        <label for="subjectName">Subject Name</label><br>
+        <input type="text" id="subjectName"><br><br>
+        <input type="submit" id="submitInfo" value="log in">
+    </div>
+    <div id="examPageDiv" class="hidden">
+        <div id="examInfoDiv">
+            <div id="infoDiv">
+                <div class="right" >
+                    <video  id="video" width="300" height="300" autoplay float="left" ></video>
+                    <canvas id="canvas" width="300" height="300" class="hidden"></canvas>
+                </div>
+            </div>
+
+        </div>
+        <section class="container" id="sectionDiv">
+            <div class="card">
+                <div class="img-box">
+                    <img src="../public/images/1.png" alt="">
+                </div>
+                <div class="content">
+                    <h2>Exam</h2><span>Append-Style</span>
+                    <p>Questions appear
+                        Each time the append button is pressed, the next question is displayed</p>
+                    <button id="appendButton">SELECT</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-box">
+                    <img src="../public/images/2.png" alt="">
+                </div>
+                <div class="content">
+                    <h2>Exam</h2><span>Pre-Next-Style</span>
+                    <p>The questions appear one by one, by pressing the previous button, the previous question will
+                        appear
+                        by clicking on the next button, the next question will appear</p>
+                    <button id="nextPreButton">SELECT</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-box">
+                    <img src="../public/images/3.png" alt="">
+                </div>
+                <div class="content">
+                    <h2>Exam</h2><span>All questions-Style</span>
+                    <p>Questions appear
+                        All together in one page</p>
+                    <button id="localButton">SELECT</button>
+                </div>
+            </div>
+        </section>
+        <div id="localDiv" class="hidden">
+        </div>
+        <div id="appendDiv" class="hidden">
+       
+        </div>
+        <div id="preNextDiv" class="hidden">
+            <div id="showQuestion"></div>
+            <button id="prev"> previous </button>
+            <input type="text" id="counter" disabled value="1">
+            <button id="next"> next </button>
+        </div>
+        <div id="submitLayoutInPage" class="hidden">
+
+            <button id="submitBtn" class="submit"> submit </button>
+            <button id="appendBtn"class="hidden">append </button>
+        </div>
+
+    </div>
+    <script type=”text/javascript”
+    src=”http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML”></script>
+    <script src="../public/js/requestA.js"></script>
+    <script src="../public/js/studentClasses.js"></script>
+    <script src="../public/js/appenddingWay.js"></script>
+    <script src="../public/js/script.js"></script>
+</body>
+
+</html>

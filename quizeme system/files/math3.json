@@ -1,0 +1,202 @@
+{
+    "examQuestions": [
+        {
+            "question_body": [
+                {
+                    "id": "847e2059-f514-f98e-da26-3aaa7d94919f",
+                    "qId": "f077edde-f89a-26d6-ba2f-9f92ca5b00b1",
+                    "type": "txt",
+                    "value": "1 - What are Fourier coefficients?"
+                }
+            ],
+            "question_number": "f077edde-f89a-26d6-ba2f-9f92ca5b00b1",
+            "type": "choose one",
+            "answer_body": [
+                "(a) The terms that are present in a Fourier series",
+                "(b) The terms that are obtained through Fourier series",
+                "(c) The terms which consist of the Fourier series along with their sine or cosine values",
+                "(d) None of the above"
+            ]
+        },
+        {
+            "question_body": [
+                {
+                    "id": "8742714d-db97-f9e2-4670-c2afc429ea9f",
+                    "qId": "3f60a75b-5598-99b3-ed73-f2eebd7a690c",
+                    "type": "img",
+                    "value": "/uploads/math.PNG"
+                },
+                {
+                    "id": "9fffd572-6899-6e01-ee03-07d39ebe4947",
+                    "qId": "3f60a75b-5598-99b3-ed73-f2eebd7a690c",
+                    "type": "txt",
+                    "value": "2 - A piecewise continuous function is shown graphically in the following figure has discontinuities at …….."
+                }
+            ],
+            "question_number": "3f60a75b-5598-99b3-ed73-f2eebd7a690c",
+            "type": "choose one",
+            "answer_body": [
+                "(a) t1 and t2",
+                "(b) t1",
+                "(c) t2",
+                "(d) None of the above"
+            ]
+        },
+        {
+            "question_body": [
+                {
+                    "id": "b8072260-e864-e751-f095-8c99dea79b74",
+                    "qId": "f0e07a04-5f28-90b0-fdaf-4cc7d0350027",
+                    "type": "txt",
+                    "value": "3 - A graph of periodic function f(x) that has period L exhibits the same pattern every L units along the y-axis."
+                }
+            ],
+            "question_number": "f0e07a04-5f28-90b0-fdaf-4cc7d0350027",
+            "type": "true or false",
+            "answer_body": [
+                "(a) True",
+                "(b) False"
+            ]
+        },
+        {
+            "question_body": [
+                {
+                    "id": "b629763e-a33f-5f5f-dfd7-f96090b45adc",
+                    "qId": "30f4d70a-c704-58e1-9732-dd2db865b64b",
+                    "type": "equation",
+                    "value": "<a href=\"https://www.codecogs.com/eqnedit.php?latex={\\color{Purple}&space;\\sin&space;\\sin&space;n\\prod&space;=0}\" target=\"_blank\"><img src=\"https://latex.codecogs.com/gif.latex?{\\color{Purple}&space;\\sin&space;\\sin&space;n\\prod&space;=0}\" title=\"{\\color{Purple} \\sin \\sin n\\prod =0}\" /></a>"
+                },
+                {
+                    "id": "2942b5e1-d7d7-c5f4-0271-874107af945a",
+                    "qId": "30f4d70a-c704-58e1-9732-dd2db865b64b",
+                    "type": "txt",
+                    "value": "n is integer ."
+                }
+            ],
+            "question_number": "30f4d70a-c704-58e1-9732-dd2db865b64b",
+            "type": "true or false",
+            "answer_body": [
+                "( a ) True",
+                "( b ) False"
+            ]
+        },
+        {
+            "question_body": [
+                {
+                    "id": "1e6861db-fdce-2421-e589-a632326cbde2",
+                    "qId": "15b1c2fd-24e4-40c1-8467-21e51bb90f35",
+                    "type": "txt",
+                    "value": "5 - The coefficient of b1 the continuous Fourier series associated with the above given function f(x) can be computed as….."
+                }
+            ],
+            "question_number": "15b1c2fd-24e4-40c1-8467-21e51bb90f35",
+            "type": "choose more",
+            "answer_body": [
+                "( a )  - 90",
+                "( b ) - 1",
+                "( c ) - ( 180 / 2 )",
+                "( d ) 0"
+            ]
+        },
+        {
+            "question_body": [
+                {
+                    "id": "61944e8a-db14-8c2d-cf20-d9d94637c7a1",
+                    "qId": "4d49e845-9495-6b41-ff04-7a0f73fbc3f8",
+                    "type": "txt",
+                    "value": "6 - Match the correct answer ."
+                }
+            ],
+            "question_number": "4d49e845-9495-6b41-ff04-7a0f73fbc3f8",
+            "type": "matchig",
+            "answer_body": [
+                [
+                    "Which are the Fourier coefficients in the following?",
+                    "Fourier series uses which domain representation of signals?",
+                    "Which of the following is an even function of t.?",
+                    "Find the inverse Laplace transform for 1/s"
+                ],
+                [
+                    "1",
+                    "a0,an and bn",
+                    " Frequency domain representation",
+                    "t^2",
+                    "-1"
+                ]
+            ]
+        },
+        {
+            "question_body": [
+                {
+                    "id": "9782bc21-963c-c0d5-a71b-c10b08912a34",
+                    "qId": "93d2583e-0632-1f1e-32b8-1b1efe511340",
+                    "type": "txt",
+                    "value": "7 - The value of the integral"
+                },
+                {
+                    "id": "22f5f11e-b2d8-7976-27a3-82c1d2c8f5f5",
+                    "qId": "93d2583e-0632-1f1e-32b8-1b1efe511340",
+                    "type": "equation",
+                    "value": "<a href=\"https://www.codecogs.com/eqnedit.php?latex={\\color{Purple}&space;\\int_{0}^{\\infty&space;}e^{-2t}\\cos&space;\\cos&space;t&space;dt}\" target=\"_blank\"><img src=\"https://latex.codecogs.com/gif.latex?{\\color{Purple}&space;\\int_{0}^{\\infty&space;}e^{-2t}\\cos&space;\\cos&space;t&space;dt}\" title=\"{\\color{Purple} \\int_{0}^{\\infty }e^{-2t}\\cos \\cos t dt}\" /></a>"
+                }
+            ],
+            "question_number": "93d2583e-0632-1f1e-32b8-1b1efe511340",
+            "type": "choose one",
+            "answer_body": [
+                "( a ) 2/5",
+                "( b ) 3/25",
+                "( c ) 1 ",
+                "( d ) 0"
+            ]
+        },
+        {
+            "question_body": [
+                {
+                    "id": "ec6ad0c6-3bb5-1d75-3b67-042923410dc4",
+                    "qId": "c857c7f3-e667-a6ab-b49d-a7284cd0d2c0",
+                    "type": "txt",
+                    "value": "8 - upload file contains informations about Gamma function ??"
+                }
+            ],
+            "question_number": "c857c7f3-e667-a6ab-b49d-a7284cd0d2c0",
+            "type": "file",
+            "answer_body": []
+        },
+        {
+            "question_body": [
+                {
+                    "id": "9fd12040-6aed-1736-7b91-6b0e21bd8bd2",
+                    "qId": "f0fb659a-8c70-9cc2-1345-8d4163cfe82f",
+                    "type": "txt",
+                    "value": "9 - write about The inverse Laplace transforms"
+                }
+            ],
+            "question_number": "f0fb659a-8c70-9cc2-1345-8d4163cfe82f",
+            "type": "text",
+            "answer_body": []
+        },
+        {
+            "question_body": [
+                {
+                    "id": "acc69fb4-39a8-40fa-9273-9c19c778f657",
+                    "qId": "bfe88ca8-186e-c106-65ae-a8e07600b590",
+                    "type": "equation",
+                    "value": "<a href=\"https://www.codecogs.com/eqnedit.php?latex={\\color{Purple}&space;\\int_{2\\prod}^{&space;}\\cos&space;\\cos&space;nx&space;dx=0}\" target=\"_blank\"><img src=\"https://latex.codecogs.com/gif.latex?{\\color{Purple}&space;\\int_{2\\prod}^{&space;}\\cos&space;\\cos&space;nx&space;dx=0}\" title=\"{\\color{Purple} \\int_{2\\prod}^{ }\\cos \\cos nx dx=0}\" /></a>"
+                }
+            ],
+            "question_number": "bfe88ca8-186e-c106-65ae-a8e07600b590",
+            "type": "true or false",
+            "answer_body": [
+                "( a ) T",
+                "( b ) F"
+            ]
+        }
+    ],
+    "examInfo": {
+        "examSubject": "Mathematics (III)",
+        "examTime": "3 hours",
+        "examCreator": "Dr / Osama Rashed",
+        "facultyName": "FCI",
+        "universityName": "Assuit"
+    }
+}

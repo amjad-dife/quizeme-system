@@ -1,0 +1,123 @@
+{
+    "examQuestions": [
+        {
+            "question_body": [
+                {
+                    "id": "4894fda3-be50-bec9-b3ee-86c9ac57fbe3",
+                    "qId": "41e298bb-84e2-7c29-59b5-39d800d0e5df",
+                    "type": "img",
+                    "value": "/uploads/team.jpg"
+                },
+                {
+                    "id": "0bd3da74-1e0c-6486-c026-8a1c887003e1",
+                    "qId": "41e298bb-84e2-7c29-59b5-39d800d0e5df",
+                    "type": "txt",
+                    "value": " they are brilliant ? "
+                }
+            ],
+            "question_number": "41e298bb-84e2-7c29-59b5-39d800d0e5df",
+            "type": "true or false",
+            "answer_body": [
+                "true",
+                "false"
+            ]
+        },
+        {
+            "question_body": [
+                {
+                    "id": "4d8b1a46-99ae-ce93-17ee-97e89ea36d99",
+                    "qId": "5c971d12-8a92-d7fd-a659-42bd0b28dc8f",
+                    "type": "equation",
+                    "value": "<a href=\"https://www.codecogs.com/eqnedit.php?latex=\\sum_{i=0}^{10}\" target=\"_blank\"><img src=\"https://latex.codecogs.com/gif.latex?\\sum_{i=0}^{10}\" title=\"\\sum_{i=0}^{10}\" /></a>"
+                },
+                {
+                    "id": "86ca2205-2375-739e-8606-17567ecbf381",
+                    "qId": "5c971d12-8a92-d7fd-a659-42bd0b28dc8f",
+                    "type": "txt",
+                    "value": "the result is ? "
+                }
+            ],
+            "question_number": "5c971d12-8a92-d7fd-a659-42bd0b28dc8f",
+            "type": "choose one",
+            "answer_body": [
+                "1",
+                "2",
+                "3",
+                "none of the above"
+            ]
+        },
+        {
+            "question_body": [
+                {
+                    "id": "80616eda-ecf1-dca0-443f-ea64977ead31",
+                    "qId": "390a184f-f4d5-4b1f-3c69-6146b55845ef",
+                    "type": "txt",
+                    "value": "\"mohmed\" in your is "
+                }
+            ],
+            "question_number": "390a184f-f4d5-4b1f-3c69-6146b55845ef",
+            "type": "choose more",
+            "answer_body": [
+                "first name ",
+                "last name",
+                "both a,b",
+                "all of the above "
+            ]
+        },
+        {
+            "question_body": [
+                {
+                    "id": "a7e53ed7-e22b-e47e-f448-bb6ba1e45d0a",
+                    "qId": "87afb96f-c440-8966-22ea-ff2383cdedec",
+                    "type": "txt",
+                    "value": "write your opinion in e-commerce in egypt "
+                }
+            ],
+            "question_number": "87afb96f-c440-8966-22ea-ff2383cdedec",
+            "type": "text",
+            "answer_body": []
+        },
+        {
+            "question_body": [
+                {
+                    "id": "6a2d5917-20a2-c31a-f5e5-3a6d114682c7",
+                    "qId": "ebec17ba-f422-0371-3cff-8bfe30c80b26",
+                    "type": "txt",
+                    "value": "upload your cv"
+                }
+            ],
+            "question_number": "ebec17ba-f422-0371-3cff-8bfe30c80b26",
+            "type": "file",
+            "answer_body": []
+        },
+        {
+            "question_body": [
+                {
+                    "id": "588ffc4d-fe05-b052-aeaf-e5260d502fbc",
+                    "qId": "8f2434d5-bff5-9375-83e2-5e975a41c611",
+                    "type": "txt",
+                    "value": "match the same thing "
+                }
+            ],
+            "question_number": "8f2434d5-bff5-9375-83e2-5e975a41c611",
+            "type": "matchig",
+            "answer_body": [
+                [
+                    "asd 1",
+                    "asd 2"
+                ],
+                [
+                    "asd 2 ",
+                    "asd 1"
+                ]
+            ]
+        }
+    ],
+    "examInfo": {
+        "examSubject": "E-commerce",
+        "examTime": "2 hours",
+        "examCreator": "eng/amjad",
+        "facultyName": "fci",
+        "universityName": "assiut"
+    }
+}

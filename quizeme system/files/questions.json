@@ -1,0 +1,128 @@
+{
+    "examInfo": 
+    {
+        "examSubject": "big data",
+        "examTime": "2 hours",
+        "examCreator": "dt/ebrahim",
+        "facultyName": "computer science",
+        "universityName": "assuit university"
+    },
+    "examQuestions": 
+    [
+        {   
+            "question_number":"1",
+            "type": "choose_one",
+            "question_body":
+            [
+                {
+                    "type": "txt",
+                    "value": "What is the capital of Connecticut?"
+                }
+            ],
+            "answer_body": 
+            [
+                "Hartford",
+                "Heartford",
+                "Hart",
+                " ford"
+            ]
+        },
+        {   
+            "question_number":"2",
+            "type": "choose_more",
+            "question_body": 
+            [
+                {
+                    "type": "txt",
+                    "value": "hello pepole?"
+                }
+            ],
+            "answer_body": 
+            [
+                "Hartford",
+                "Heartford",
+                "Hart",
+                " ford"
+            ]
+        },
+        {   
+            "question_number":"3",
+            "type": "txt",
+            "question_body": 
+            [
+                {
+                    "type": "audio",
+                    "src": "ada"
+                },
+                {
+                    "type": "txt",
+                    "value": "write the spelling of this word"
+                }
+            ]
+        },
+        { 
+            "question_number":"4",
+            "type": "true_or_false",
+            "question_body":
+            [
+                {
+                    "type": "txt",
+                    "value": "the capital of egypt is cairo"
+                }
+            ],
+            "answer_body": 
+            [
+                true,
+                false
+            ]
+        },
+        {   
+            "question_number":"5",
+            "type": "matching",
+            "question_body": [
+                {
+                    "type": "img",
+                    "value": "/public/images/4.jpg"
+                }
+                ,{
+                    "type":"txt",
+                    "value":"i am inside matching question"
+                }
+            ],
+            "answer_body": 
+            [      
+                [
+                "asd1",
+                "asd2",
+                "asd3",
+                "asd4"
+                ],
+                [
+                "asd4",
+                "asd3",
+                "asd2",
+                "asd1"
+                ]
+            ]
+
+        }
+        ,
+        {   
+            "question_number":"6",
+            "type": "file",
+            "question_body": 
+            [
+                {
+                    "type": "img",
+                    "value": "../public/images/4.jpg"
+                }
+                ,{
+                    "type":"txt",
+                    "value":"i am inside matching question2"
+                }
+            ]
+        }
+    ]
+}
+
+
